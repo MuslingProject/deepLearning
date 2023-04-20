@@ -2,8 +2,6 @@
 # 감정 분류 헤더 추가
 # 내용 헤더 추가 
 
-import pandas as pd
-import numpy as np
 import csv
 
 input_file = "test_successed.csv"
