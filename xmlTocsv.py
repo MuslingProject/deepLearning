@@ -28,10 +28,10 @@ for xml_file in xml_list:
 #-*- coding:utf-8 -*-
   for d in datas:
     # null일 경우 저장하지 않게
-    if d.text != "":
-        new_file = open("test.csv", 'at', encoding="utf-8")
-        new_file.write(d.text)
-        new_file.close()
+      new_file = open("test.csv", 'at', encoding="utf-8")
+      new_file.write(d.text)
+      new_file.write('\n')
+      new_file.close()
   
 
 print("Parsing Sucessed")
